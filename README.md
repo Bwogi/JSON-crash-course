@@ -27,13 +27,19 @@ JSON has pretty much replaced XML in sending data back and forth and when workin
 ## JSON example
 ```
 {
-    "name" : "Andrew Bwogi",
-    "age": 35,
-    "address" : {
+    "name":"Andrew Bwogi",
+    "age":35,
+    "address":{
             "street" : "5 main st",
             "city" : "Los Angeles"
     },
-    "children" : ["Brianna","Nicholas"]
+    "children":["Myra","Grace","Loy","Emmanuel","Gabriel","Nankya","Elai"]
 }
 ```
-
+### explanation
+- Its a single JSON object with a person
+- Its wrapped in curly brackets and it uses key value pairs.
+- name uses a string of Andrew Bwogi and must be in double quotes
+- second one is the number,it doesnt have double quotes around it.
+- the next is an address which is actually an embedded object
+- and the last is an array of strings
