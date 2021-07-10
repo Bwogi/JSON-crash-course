@@ -62,4 +62,13 @@ for (var i = 0; i < people.length; i++) {
     console.log(people[i].name);
     console.log(people[i].age);
 
+    var nameContainer = document.getElementById('name');
+    var paraEl = document.createElement('p');
+    paraEl.innerHTML = people[i].name;
+    nameContainer.appendChild(paraEl);
+
+    var ageContainer = document.getElementById('age');
+    var paraEl = document.createElement('p');
+    paraEl.innerHTML = people[i].age;
+    ageContainer.appendChild(paraEl);
 }
